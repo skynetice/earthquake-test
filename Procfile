@@ -1,1 +1,1 @@
-worker: sh setup.sh && streamlit run app.py && cd ./
+web: sh setup.sh && streamlit run app.py && cd ./
