@@ -33,7 +33,7 @@ def app():
     plt.scatter(data_cluster_mag[y_kmeans == 1, 0], data_cluster_mag[y_kmeans == 1, 1], s = 10, c = 'red', label = 'Cluster 2')
     plt.scatter(data_cluster_mag[y_kmeans == 2, 0], data_cluster_mag[y_kmeans == 2, 1], s = 10, c = 'magenta', label = 'Cluster 3')
     plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s = 100, c = 'yellow', label = 'Centroids')
-    plt.title('Cluster gempa bumi di indonesia 2021 dengan KNN n=2')
+    plt.title('Cluster gempa bumi di indonesia 2021 dengan KNN n=3')
     plt.xlabel('Kedalaman (Depth)')
     plt.ylabel('Magnitudo (M)')
     plt.legend()
